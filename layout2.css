@@ -1,0 +1,33 @@
+
+body{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+.navigation{	
+
+	flex-flow: flex-start;
+}
+
+.navigation + *{
+	display: flex;
+	flex-flow: flex-end;
+}
+
+
+
+
+header{
+	order: -1;
+	flex-basis: 100%;
+}
+
+footer{
+	order:999999;
+	flex-basis: 100%;
+}
